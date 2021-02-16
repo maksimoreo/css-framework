@@ -1,0 +1,192 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-red {
+  background: #D95D39;
+}
+
+.color-red {
+  color: #D95D39;
+}
+
+.border-red {
+  border-color: #D95D39;
+}
+
+.bg-orange {
+  background: #F19953;
+}
+
+.color-orange {
+  color: #F19953;
+}
+
+.border-orange {
+  border-color: #F19953;
+}
+
+.bg-yellow {
+  background: #FFCB77;
+}
+
+.color-yellow {
+  color: #FFCB77;
+}
+
+.border-yellow {
+  border-color: #FFCB77;
+}
+
+.bg-green {
+  background: #7DCE82;
+}
+
+.color-green {
+  color: #7DCE82;
+}
+
+.border-green {
+  border-color: #7DCE82;
+}
+
+.bg-purple {
+  background: #6457A6;
+}
+
+.color-purple {
+  color: #6457A6;
+}
+
+.border-purple {
+  border-color: #6457A6;
+}
+
+.bg-blue {
+  background: #197BBD;
+}
+
+.color-blue {
+  color: #197BBD;
+}
+
+.border-blue {
+  border-color: #197BBD;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.border-white {
+  border-color: #fff;
+}
+
+.bg-light {
+  background: #ccc;
+}
+
+.color-light {
+  color: #ccc;
+}
+
+.border-light {
+  border-color: #ccc;
+}
+
+.bg-grey {
+  background: #888;
+}
+
+.color-grey {
+  color: #888;
+}
+
+.border-grey {
+  border-color: #888;
+}
+
+.bg-dark {
+  background: #444;
+}
+
+.color-dark {
+  color: #444;
+}
+
+.border-dark {
+  border-color: #444;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.color-black {
+  color: #000;
+}
+
+.border-black {
+  border-color: #000;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.column-1 {
+  grid-column: auto/span 1;
+}
+
+.column-2 {
+  grid-column: auto/span 2;
+}
+
+.column-3 {
+  grid-column: auto/span 3;
+}
+
+.column-4 {
+  grid-column: auto/span 4;
+}
+
+.column-5 {
+  grid-column: auto/span 5;
+}
+
+.column-6 {
+  grid-column: auto/span 6;
+}
+
+.column-7 {
+  grid-column: auto/span 7;
+}
+
+.column-8 {
+  grid-column: auto/span 8;
+}
+
+.column-9 {
+  grid-column: auto/span 9;
+}
+
+.column-10 {
+  grid-column: auto/span 10;
+}
+
+.column-11 {
+  grid-column: auto/span 11;
+}
+
+.column-12 {
+  grid-column: auto/span 12;
+}
+
+/*# sourceMappingURL=framework.css.map */

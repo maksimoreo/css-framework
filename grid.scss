@@ -1,0 +1,12 @@
+$grid-size: 12;
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat($grid-size, 1fr);
+}
+
+@for $i from 1 through $grid-size {
+    .column-#{$i} {
+        grid-column: auto / span #{$i};
+    }
+}

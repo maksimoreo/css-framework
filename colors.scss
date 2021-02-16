@@ -1,0 +1,18 @@
+@use "sass:map";
+
+$colors: ("red": #D95D39, "orange": #F19953, "yellow": #FFCB77, "green": #7DCE82, "purple": #6457A6, "blue": #197BBD);
+$grey-shades: ("white": #fff, "light": #ccc, "grey": #888, "dark": #444, "black": #000);
+
+@each $color-name, $color-value in map.merge($colors, $grey-shades) {
+    .bg-#{$color-name} {
+        background: $color-value;
+    }
+
+    .color-#{$color-name} {
+        color: $color-value;
+    }
+
+    .border-#{$color-name} {
+        border-color: $color-value;
+    }
+}
