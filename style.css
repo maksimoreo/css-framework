@@ -9,6 +9,57 @@ html {
     color: rgb(74, 74, 74);
 }
 
+#main-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 168px;
+    margin-bottom: 50px;
+}
+
+#navbar-list {
+    display: flex;
+}
+
+#navbar-list li {
+    list-style: none;
+    height: 94px;
+    display: flex;
+    align-items: center;
+}
+
+#navbar-list a {
+    padding: 8px;
+    color: rgba(74, 74, 74, 0.7);
+    letter-spacing: 0.2px;
+    font-weight: bold;
+}
+
+#navbar-list a:hover {
+    color: black;
+}
+
+.odin-logo {
+    font-family: "Truculenta";
+    font-size: 32px;
+}
+
+.odin-logo-text {
+    padding-left: 16px;
+}
+
+.odin-logo:hover {
+    color: var(--color-gold);
+}
+
+.side-nav {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.side-nav li {
+    margin-bottom: 32px;
+}
+
 .lesson-badge {
     display: block;
     width: 110px;
@@ -63,13 +114,13 @@ p {
     margin-bottom: 16px;
 }
 
-.lesson li {
+.lesson-content li {
     margin: 15px 0;
     font-size: 18px;
     line-height: 1.9;
 }
 
-.lesson ul {
+.lesson-content ul {
     padding-left: 20px;
     margin-bottom: 50px;
 }

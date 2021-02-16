@@ -4,28 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="framework/framework.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Truculenta:wght@700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="framework/framework.css">
   <link rel="stylesheet" href="style.css">
 
   <title>Grid-based CSS framework</title>
 </head>
 <body>
+  <nav id="main-navbar" class="navbar center-child-v">
+    <div>
+      <a class="center-child-v odin-logo" href="" style="text-decoration: none;">
+        <img height="70" src="assets/images/odin-logo.svg" alt="The Odin Project logo">
+        <div class="odin-logo-text uppercase">The Odin Project</div>
+      </a>
+    </div>
+    <ul id="navbar-list">
+      <li><a class="internal-link" href="">All Paths</a></li>
+      <li><a class="internal-link" href="">Community v</a></li>
+      <li><a class="internal-link" href="">About</a></li>
+      <li><a class="internal-link" href="">FAQ</a></li>
+      <li><a class="internal-link" href="">Sign Up</a></li>
+      <li><a class="internal-link" href="">Log In</a></li>
+    </ul>
+  </nav>
   <article class="lesson">
-    <img class="lesson-badge center-margin-h" src="assets/images/badge-html-css.svg" alt="">
-    <h1 class="course-title align-center"><a class="internal-link" href="">HTML and CSS</a></h1>
+    <img class="lesson-badge center-margin-h" src="assets/images/badge-html-css.svg" alt="HTML and CSS Course badge">
+    <h1 class="align-center"><a class="internal-link course-title" style="font-weight: 300;" href="">HTML and CSS</a></h1>
     <h2 class="uppercase align-center">Project: Design Your Own Grid-based Framework</h2>
     <div class="columns">
-      <div class="column-3">
-        <ul>
+      <div class="column-3 center-child-h">
+        <ul class="side-nav">
           <li><a href="" class="internal-link uppercase">Introduction</a></li>
           <li><a href="" class="internal-link uppercase">Assignment</a></li>
           <li><a href="" class="internal-link uppercase">Additional Resources</a></li>
         </ul>
       </div>
-      <div class="column-6">
+      <div class="column-6 lesson-content">
         <h3><a href="" class="internal-link">Introduction</a></h3>
         <p>In this final project, you’ll get to take everything you’ve learned and use it to build your own simple grid-based framework. As with the other final projects, we’ll keep it relatively open-ended to give you a chance to exercise your creativity and problem-solving skills. It will be a great project to show off to potential employers as well.</p>
         <p>Once you’re done setting up your framework, you will use it to clone any website you like. If you’re out of ideas, try cloning The Odin Project!</p>
