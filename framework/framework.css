@@ -143,50 +143,62 @@
 
 .column-1 {
   grid-column: auto/span 1;
+  padding: 0 15px;
 }
 
 .column-2 {
   grid-column: auto/span 2;
+  padding: 0 15px;
 }
 
 .column-3 {
   grid-column: auto/span 3;
+  padding: 0 15px;
 }
 
 .column-4 {
   grid-column: auto/span 4;
+  padding: 0 15px;
 }
 
 .column-5 {
   grid-column: auto/span 5;
+  padding: 0 15px;
 }
 
 .column-6 {
   grid-column: auto/span 6;
+  padding: 0 15px;
 }
 
 .column-7 {
   grid-column: auto/span 7;
+  padding: 0 15px;
 }
 
 .column-8 {
   grid-column: auto/span 8;
+  padding: 0 15px;
 }
 
 .column-9 {
   grid-column: auto/span 9;
+  padding: 0 15px;
 }
 
 .column-10 {
   grid-column: auto/span 10;
+  padding: 0 15px;
 }
 
 .column-11 {
   grid-column: auto/span 11;
+  padding: 0 15px;
 }
 
 .column-12 {
   grid-column: auto/span 12;
+  padding: 0 15px;
 }
 
 .uppercase {
@@ -195,6 +207,20 @@
 
 .align-center {
   text-align: center;
+}
+
+.center-margin-h {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-margin-v {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.center-margin {
+  margin: auto;
 }
 
 /*# sourceMappingURL=framework.css.map */

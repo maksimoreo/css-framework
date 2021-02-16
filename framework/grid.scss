@@ -8,5 +8,6 @@ $grid-size: 12;
 @for $i from 1 through $grid-size {
     .column-#{$i} {
         grid-column: auto / span #{$i};
+        padding: 0 15px;
     }
 }
